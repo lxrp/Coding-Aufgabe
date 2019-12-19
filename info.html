@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1"
+			charset="utf-8"
+		/>
+		<link
+			<link
+			href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+
+	<body>
+		<section>
+			<h1>Aufgabe</h1>
+			<p>Ein Traum auf vier Rädern</p>
+			<div class="tabbox">
+				<h2 tabindex="0">General</h2>
+				<h2 tabindex="1">Engine</h2>
+				<h2 tabindex="2">Specials</h2>
+				<div class="mobileContent"></div>
+			</div>
+			<div class="content"></div>
+		</section>
+
+		<section>
+			<h4>Order Model:</h4>
+			<form>
+				<label>
+					Quantity:
+					<input type="number" min="1" name="quantity" value="1" step="1" />
+				</label>
+				<span class="price">19.95 €</span>
+				<span class="discountPrice">17.95 €</span>
+			</form>
+		</section>
+		<script src="main.js"></script>
+	</body>
+</html>
